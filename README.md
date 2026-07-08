@@ -52,7 +52,7 @@ lib/
 
 ```bash
 # 1. Clone the repo (after you push to GitHub)
-git clone https://github.com/<your-username>/oriflame.git
+git clone https://github.com/tirumala2306/oriflame.git
 cd oriflame
 
 # 2. Install dependencies
@@ -103,49 +103,73 @@ For presentation, use an Android emulator or a real device in portrait mode. The
 | `/smart-post` | Smart Post feed |
 | `/smart-post/edit-caption` | Edit caption |
 
-## Push to GitHub
 
-If this folder is not a git repo yet, run these commands from the project root (`oriflame`):
 
-```bash
-# 1. Initialize git (skip if already a repo)
-git init
 
-# 2. Stage all files
-git add .
+## Screenshots
 
-# 3. First commit
-git commit -m "Add Oriflame Quick Share Flutter UI assignment"
+<table>
+<tr>
+<td align="center"><b>Intro Screen</b></td>
+<td align="center"><b>Smart Feed</b></td>
+</tr>
 
-# 4. Create a new empty repo on GitHub (browser):
-#    https://github.com/new
-#    Name it e.g. "oriflame" — do NOT add README/license (this project already has one)
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/26d5b331-7b19-4d28-933f-fd7fb58652bf" width="250"/>
+</td>
 
-# 5. Add remote and push (replace YOUR_USERNAME with your GitHub username)
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/oriflame.git
-git push -u origin main
-```
+<td>
+<img src="https://github.com/user-attachments/assets/f254a37c-c57a-4e96-b1cb-35f71fa577b5" width="250"/>
+</td>
+</tr>
 
-### If you use SSH instead of HTTPS
+<tr>
+<td align="center"><b>Product Card</b></td>
+<td align="center"><b>Edit Caption</b></td>
+</tr>
 
-```bash
-git remote add origin git@github.com:YOUR_USERNAME/oriflame.git
-git push -u origin main
-```
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/905c1dac-048b-4c85-a517-701a5cfa5366" width="250"/>
+</td>
 
-### Later updates
+<td>
+<img src="https://github.com/user-attachments/assets/f71dfe29-bdc3-4719-9d81-5e8f8a507465" width="250"/>
+</td>
+</tr>
 
-```bash
-git add .
-git commit -m "Describe your change"
-git push
-```
+<tr>
+<td align="center"><b>Share Loading</b></td>
+<td align="center"><b>Share Options</b></td>
+</tr>
 
-## Figma Reference
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/4729034c-3d81-4af8-9fdc-5f841f9ae063" width="250"/>
+</td>
 
-Design: [Quick-share-feature](https://www.figma.com/design/pba5xdsRMWFWWtxThfAnnw/Quick-share-feature)
+<td>
+<img src="https://github.com/user-attachments/assets/98d36758-010b-458f-92dd-b188ca7fa31a" width="250"/>
+</td>
+</tr>
+
+</table>
 
 ---
 
 Built for the Oriflame Sweden Flutter assignment — UI demo with hardcoded values, ready for live presentation on emulator or device.
+
+Design size:
+
+```
+390 × 844
+```
+
+---
+
+# Author
+
+**Tirumala G**
+
+**Flutter Developer**
